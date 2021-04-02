@@ -1,0 +1,14 @@
+Xoodoo-reference.c:24:6:Xoodoo_StaticInitialize	4	static
+Xoodoo-reference.c:30:6:Xoodoo_Initialize	16	static
+Xoodoo-reference.c:37:6:Xoodoo_AddByte	24	static
+Xoodoo-reference.c:45:6:Xoodoo_AddBytes	32	static
+Xoodoo-reference.c:57:6:Xoodoo_OverwriteBytes	24	static
+Xoodoo-reference.c:66:6:Xoodoo_OverwriteWithZeroes	16	static
+Xoodoo-reference.c:74:6:Xoodoo_ExtractBytes	24	static
+Xoodoo-reference.c:83:6:Xoodoo_ExtractAndAddBytes	32	static
+Xoodoo-reference.c:128:13:fromBytesToWords	24	static
+Xoodoo-reference.c:139:13:fromWordsToBytes	24	static
+Xoodoo-reference.c:148:13:Xoodoo_Round	112	static
+Xoodoo-reference.c:211:6:Xoodoo_Permute_Nrounds	72	static
+Xoodoo-reference.c:228:6:Xoodoo_Permute_6rounds	16	static
+Xoodoo-reference.c:233:6:Xoodoo_Permute_12rounds	16	static

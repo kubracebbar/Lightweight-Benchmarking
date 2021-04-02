@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lwc_benchmark_codeblocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lwc_benchmark_codeblocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="$(PROJECTDIR)/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lwc_benchmark_codeblocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant160v1/ref/api.h" />
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant160v1/ref/elephant_160.h" />
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant160v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant160v1/ref/spongent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant176v1/ref/api.h" />
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant176v1/ref/elephant_176.h" />
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant176v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant176v1/ref/spongent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant200v1/ref/api.h" />
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant200v1/ref/elephant_200.h" />
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant200v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/elephant/Implementations/crypto_aead/elephant200v1/ref/keccak.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetweaes128v1/ref/api.h" />
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetweaes128v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetweaes128v1/ref/estate.h" />
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetweaes128v1/ref/tweaes-128.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetwegift128v1/ref/api.h" />
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetwegift128v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetwegift128v1/ref/estate.h" />
+		<Unit filename="algos/estate/Implementations/crypto_aead/estatetwegift128v1/ref/twegift-128.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/estate/Implementations/crypto_aead/sestatetweaes128v1/ref/api.h" />
+		<Unit filename="algos/estate/Implementations/crypto_aead/sestatetweaes128v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/estate/Implementations/crypto_aead/sestatetweaes128v1/ref/estate.h" />
+		<Unit filename="algos/estate/Implementations/crypto_aead/sestatetweaes128v1/ref/tweaes-128.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/extra_api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/forkskinny.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/forkskinny.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/helpers.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/paef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/paef.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/skinny_round.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t192n48v1/ref/skinny_round.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/extra_api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/forkskinny.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/forkskinny.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/helpers.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/paef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/paef.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/skinny_round.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t256n112v1/ref/skinny_round.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/extra_api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/forkskinny.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/forkskinny.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/helpers.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/paef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/paef.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/skinny_round.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb128t288n104v1/ref/skinny_round.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/extra_api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/forkskinny.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/forkskinny.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/helpers.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/paef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/paef.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/skinny_round.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/paefforkskinnyb64t192n48v1/ref/skinny_round.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/extra_api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/forkskinny.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/forkskinny.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/helpers.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/saef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/saef.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/skinny_round.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t192n56v1/ref/skinny_round.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/extra_api.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/forkskinny.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/forkskinny.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/helpers.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/saef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/saef.h" />
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/skinny_round.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/forkae/Implementations/crypto_aead/saefforkskinnyb128t256n120v1/ref/skinny_round.h" />
+		<Unit filename="algos/gift-cofb/Implementations/crypto_aead/giftcofb128v1/ref/api.h" />
+		<Unit filename="algos/gift-cofb/Implementations/crypto_aead/giftcofb128v1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/gift-cofb/Implementations/crypto_aead/giftcofb128v1/ref/gift128.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/gift-cofb/Implementations/crypto_aead/giftcofb128v1/ref/gift128.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/Cyclist.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/Xoodoo-SnP.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/Xoodoo-reference.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/Xoodoo.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/Xoodyak.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/Xoodyak.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/align.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/api.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/brg_endian.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_aead/xoodyakv1/ref/encrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/Cyclist.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/Xoodoo-SnP.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/Xoodoo-reference.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/Xoodoo.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/Xoodyak.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/Xoodyak.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/align.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/api.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/brg_endian.h" />
+		<Unit filename="algos/xoodyak/Implementations/crypto_hash/xoodyakv1/ref/hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crypto_aead.h" />
+		<Unit filename="crypto_hash.h" />
+		<Unit filename="lwc_config.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/genkat_aead_hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

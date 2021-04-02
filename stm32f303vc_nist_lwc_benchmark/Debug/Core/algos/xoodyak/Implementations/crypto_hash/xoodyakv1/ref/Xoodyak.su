@@ -1,0 +1,13 @@
+Cyclist.inc:47:13:Xoodyak_Down	24	static
+Cyclist.inc:56:13:Xoodyak_Up	24	static
+Cyclist.inc:86:13:Xoodyak_AbsorbAny	32	static
+Cyclist.inc:102:13:Xoodyak_AbsorbKey	80	static
+Cyclist.inc:123:13:Xoodyak_SqueezeAny	32	static
+Cyclist.inc:140:13:Xoodyak_Crypt	64	static
+Cyclist.inc:168:6:Xoodyak_Initialize	40	static
+Cyclist.inc:185:6:Xoodyak_Absorb	32	static
+Cyclist.inc:190:6:Xoodyak_Encrypt	32	static
+Cyclist.inc:196:6:Xoodyak_Decrypt	32	static
+Cyclist.inc:202:6:Xoodyak_Squeeze	24	static
+Cyclist.inc:207:6:Xoodyak_SqueezeKey	24	static
+Cyclist.inc:213:6:Xoodyak_Ratchet	40	static
